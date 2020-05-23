@@ -15,8 +15,10 @@ async def on_ready():
 @client.event
 async def on_member_join(member):
     for channel in member.guild.channels:
-        if channel.name == 'welcome':
-            await channel.send('Welcome ' + str(member))
+        if channel.name == 'c3po-testing':
+            await channel.send('Welcome ' + member.mention)
+    role = discord.utils.get(member.guild.roles, name="human-beings")
+    await member.add_roles(role)
 
 
 client.run(TOKEN)
