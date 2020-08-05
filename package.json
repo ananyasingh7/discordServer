@@ -1,0 +1,27 @@
+{
+  "name": "discordserver",
+  "version": "1.0.0",
+  "description": "Personal Discord Server with programmed Bots that return weather information, stock information, tweets, etc.... from various APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ananyasingh7/discordServer.git"
+  },
+  "author": "Ananya Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ananyasingh7/discordServer/issues"
+  },
+  "homepage": "https://github.com/ananyasingh7/discordServer#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
